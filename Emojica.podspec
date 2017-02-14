@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license             = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.author              = { "Dan Lindholm" => "main@xoudini.com" }
   s.social_media_url    = "http://twitter.com/xoudini"
-  s.platform            = :ios, "10.1"
+  s.platform            = :ios, "8.0"
 
   s.source              = { :git => "https://github.com/xoudini/emojica.git", :tag => s.version.to_s }
   s.source_files        = "Source/*.{h,swift}"
